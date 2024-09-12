@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    font-family: 'Lato' ,sans-serif;
+    
+}
+.header-area{
+    background-color: #f8f9fa;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 10px 0;
+}
+.logo img{
+    max-height: 60px;
+    cursor: pointer;
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+/* Base menu link style */
+.menu ul li a {
+    text-decoration: none; /* Removes the default underline */
+    color: #333;
+    font-weight: 600;
+    position: relative; /* To position the underline */
+    padding-bottom: 5px; /* Space for the underline */
+}
+
+/* Hover effect: underline */
+.menu ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #007bff; /* Color of the underline */
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* On hover, extend the underline */
+.menu ul li a:hover::after {
+    width: 100%; /* Full width underline on hover */
+}
+
+.button .btn{
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+   
+}
+.button .btn:hover {
+    background-color: #0056b3;
+    transition: 0.3s;
+}
