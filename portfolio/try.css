@@ -1,0 +1,25 @@
+.parrent{
+    border: 2px solid black;
+    width: 300px;
+    margin: auto;
+    padding: 50px;
+}
+.one{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    left: 50px;
+}
+.two{
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    display: inline-block;
+    position: relative;
+    left: 50px;
+}
+.three{
+    width: 100px;
+    height: 100px;
+    background-color:violet;
+}
