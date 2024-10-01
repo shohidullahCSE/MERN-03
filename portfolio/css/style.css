@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-*{
+*{ 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,13 +10,14 @@
   color: tomato;
 }
 body{
-  background: #222222;
+  background: #222;
   color: white;
   min-height: 100vh;
 }
-nav{
+.navbar{
   position: sticky;
   top: 0px;
+  z-index: 1000;
   backdrop-filter: blur(1px);   
 }
 .nav-container{
@@ -146,3 +146,6 @@ nav{
       line-height:2rem;
   }
 }
+
+
+
